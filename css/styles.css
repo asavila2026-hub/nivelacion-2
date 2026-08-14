@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .nav{
     background-color: rgba(0, 0, 255, 0.637);
     width: 1500px;
@@ -26,4 +30,13 @@ p{
 }
 li{
   display:inline black;
+}
+.dropdown-content{
+            padding: 10px 20px;
+            background-color: #03274d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            height: 20px;
+            
 }
