@@ -32,11 +32,13 @@ li{
   display:inline black;
 }
 .dropdown-content{
-            padding: 10px 20px;
             background-color: #03274d;
             color: white;
             border: none;
             cursor: pointer;
-            height: 20px;
-            
+            height: 40px;
+            list-style-type:none;
+            display:flex;
+}.dropdown-content li{
+  padding: 14px 25px;
 }
